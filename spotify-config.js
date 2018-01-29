@@ -1,2 +1,2 @@
-export const CLIENT_ID = '4188bf20cedc4c5ab2c708a926a3d92d';
-export const APOLLO_ENGINE_API_KEY = 'service:goldensunliu-7365:PtE_QazzjXuZOEyUo8vWqA';
+export const CLIENT_ID = 'MUST_HAVE_YOUR_API_CLIENT_ID!!!'; // Set up and obtain your Spotify App Client ID (https://beta.developer.spotify.com/dashboard/applications)
+export const APOLLO_ENGINE_API_KEY = null; // Leave null or Optional [Apollo Engine](https://www.apollographql.com/engine/) API key

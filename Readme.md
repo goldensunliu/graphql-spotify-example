@@ -110,8 +110,10 @@ query ($timeRange: TimeRange = medium_term) {
 ```
 
 ### Local Build & Develop
+#### Install
+```npm install``` or ```yarn install```
 
-##### Set App Configuration
+#### Set App Configuration
 1. [Set up and obtain your Spotify App Client ID](https://beta.developer.spotify.com/dashboard/applications)
 
 2. White-list **http://localhost:3000/login** in your app settings
@@ -126,7 +128,7 @@ query ($timeRange: TimeRange = medium_term) {
        * Schema management
        * Error tracking
        * Caching
-##### Local Build
+#### Local Build
 ```
 npm run dev
 ```

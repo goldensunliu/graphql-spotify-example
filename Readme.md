@@ -1,4 +1,4 @@
-## A Web App For Exploring Spotify Data
+## A Web App For Exploring Spotify Data ![](https://travis-ci.org/goldensunliu/graph-spotify-example.svg?branch=master)
 This is an example web application built using [GraphQL Spotify](https://github.com/goldensunliu/graphql-spotify) + [React/Next.js](https://github.com/zeit/next.js) + [Apollo GraphQL](https://www.apollographql.com/docs/) + [Spotify Web API](https://beta.developer.spotify.com/documentation/web-api/reference/) 
 
 * It comes complete with a simple and complete implicit Auth flow for access Spotify's data

@@ -7,12 +7,14 @@ This is an example web application built using [GraphQL Spotify](https://github.
 
 * It is a great showchase on how you can request all the data you need from Spotify with a single request in your applications!
 
+****[Deployed Example Here](https://graph-spotify-example-gzsqbkpmqv.now.sh)****
+
 #### Routes
 
 * /graphiql - An in-browser IDE for exploring GraphQL Spotify Data
 * /categories - An server side rendering example page built on top of [React/Next.js](https://github.com/zeit/next.js) + [Apollo Client](https://github.com/apollographql/apollo-client)
 
-#### Example Queries to Try
+#### Example Queries to Try On ****[the Deployed Example](https://graph-spotify-example-gzsqbkpmqv.now.sh)****
 ##### Get your recently played history with tracks' audio features and related artists' genres
 
 ```

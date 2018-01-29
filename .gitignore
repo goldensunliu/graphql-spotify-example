@@ -1,0 +1,7 @@
+*.iml
+*.ipr
+*.iws
+node_modules
+build/
+.next
+package-lock.json

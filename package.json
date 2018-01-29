@@ -1,5 +1,5 @@
 {
-  "name": "graph-spotify-example",
+  "name": "graphql-spotify-example",
   "version": "1.0.0",
   "description": "This is an example web application built using [GraphQL Spotify](https://github.com/goldensunliu/graphql-spotify) + [React/Next.js](https://github.com/zeit/next.js) + [Apollo GraphQL](https://www.apollographql.com/docs/) + [Spotify Web API](https://beta.developer.spotify.com/documentation/web-api/reference/)",
   "scripts": {

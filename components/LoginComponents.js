@@ -1,15 +1,13 @@
-import { CLIENT_ID } from "../spotify-config";
+import { CLIENT_ID, SCOPES } from "../spotify-config";
 import Button from './button'
 import Typist from 'react-typist'
 
-// these are the current scopes graphql-spotify supports. Including them all to access all queries.
-const SCOPES = 'user-read-recently-played+user-library-read+user-library-modify'
 function redirectToLogin() {
     const redirectLink = `${window.location.protocol}//${window.location.host}/login`
     const state = getParameterByName('returnTo') || '/'
     // Right now we just pass the path as the state, use at your own risk, strongly recommend the following:
     // generate a random string or encode the hash of some client state (e.g., a cookie) in this state variable, you can validate the response to additionally ensure that the request and response originated in the same browser
-    const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&scopes=${SCOPES}&redirect_uri=${encodeURIComponent(redirectLink)}&state=${encodeURIComponent(state)}&response_type=token`
+    const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&scope=${SCOPES}&redirect_uri=${encodeURIComponent(redirectLink)}&state=${encodeURIComponent(state)}&response_type=token`
     window.location = authUrl;
 }
 

@@ -7,7 +7,7 @@ This is an example web application built using [GraphQL Spotify](https://github.
 
 * It is a great showchase on how you can request all the data you need from Spotify with a single request in your applications!
 
-****[Deployed Example Here](https://graphql-spotify-example-ugmersomtj.now.sh)****
+****[Deployed Example Here](https://graphql-spotify-example-zzajohosbz.now.sh)****
 
 #### Routes
 

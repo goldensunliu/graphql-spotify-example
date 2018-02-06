@@ -7,7 +7,7 @@ function redirectToLogin() {
     const state = getParameterByName('returnTo') || '/'
     // Right now we just pass the path as the state, use at your own risk, strongly recommend the following:
     // generate a random string or encode the hash of some client state (e.g., a cookie) in this state variable, you can validate the response to additionally ensure that the request and response originated in the same browser
-    const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&scope=${SCOPES}&redirect_uri=${encodeURIComponent(redirectLink)}&state=${encodeURIComponent(state)}&response_type=token`
+    const authUrl = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&scope=${SCOPES.join('+')}&redirect_uri=${encodeURIComponent(redirectLink)}&state=${encodeURIComponent(state)}&response_type=token`
     window.location = authUrl;
 }
 
